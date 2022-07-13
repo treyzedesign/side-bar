@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("../comp.jpg");
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    background-position: center;
+    
+    background-size: cover;
+    margin: 0px auto;
+
+}
+.container{
+    margin: 0px auto;
+    width: 100%;
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-top: 100px;
+}
+.text h1{
+    font-size: 85px;
+    color: blanchedalmond;
+    opacity: 0.7;
+    
+}
+.text p{
+    font-size: 20px;
+    color: blanchedalmond;
+    opacity: 0.7;
+}
+form{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+form p{
+    font-size: 25px;
+    color: blanchedalmond;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+ form input{
+    margin-top: 10px;
+    padding: 10px 100px;
+    text-align: center;
+    border-radius: 30px;
+    border-color: blanchedalmond;
+    opacity: 0.9;
+}
+input::placeholder{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 600;
+}
+#btn{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    opacity: 0.8;
+    cursor: pointer;
+} 
+#btn:hover{
+    border-radius: 30px;
+    border-color:rgb(24, 24, 88);
+    background-color: rgb(47, 47, 88);
+    color: aliceblue;
+    opacity: 1;
+
+}
+.smalltext{
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#btn2 {
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    opacity: 0.9;
+    cursor: pointer;
+}
